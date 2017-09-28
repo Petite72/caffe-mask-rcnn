@@ -5,7 +5,7 @@
 // Written by Ross Girshick
 // ------------------------------------------------------------------
 
-#include "caffe/fast_rcnn_layers.hpp"
+#include "caffe/mask_rcnn_layers.hpp"
 
 namespace caffe {
 
