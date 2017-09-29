@@ -64,7 +64,8 @@ protected:
   int pooled_height_;
   int pooled_width_;
   Dtype spatial_scale_;
-  Blob<int> max_idx_;
+  Blob<int> max_pts_;
+  Blob<float> max_mult_;
 };
 
 template <typename Dtype>
